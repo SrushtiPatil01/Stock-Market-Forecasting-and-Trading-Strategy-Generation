@@ -1,0 +1,27 @@
+project_root/
+│
+├── app.py
+├── requirements.txt
+│
+├── data/
+│   ├── stock_data.csv
+│   ├── feature_data.csv
+│   └── model_results.csv
+│
+├── models/
+│   ├── feature_selection.py
+│   ├── random_forest.py
+│   ├── xgboost.py
+│   └── garch.py
+│
+├── utils/
+│   ├── data_loader.py
+│   ├── data_preprocessor.py
+│   └── visualization.py
+│
+└── notebooks/
+    ├── Lecture03_FeaturePreparation_NoAPI.ipynb
+    ├── Lecture03_FeatureSelection.ipynb
+    ├── Lecture04_Random_Forest.ipynb
+    ├── Lecture04_XGBoost.ipynb
+    └── Lecture03_BackTesting.ipynb
